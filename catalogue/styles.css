@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+img {
+  object-fit: contain;
+  height: 200px;
+}

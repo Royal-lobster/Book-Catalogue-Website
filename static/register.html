@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    form {
+        margin-top: 10vh;
+        border: 1px solid black;
+        padding: 20px;
+        max-width: 500px;
+        font-size: 20px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    h1 {
+        margin-top: -5px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    button {
+        padding: 3px 30px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <center>
+        <form>
+            <h1>Register</h1>
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" placeholder="Enter name" />
+            </div>
+            <div>
+                <label>Password: </label>
+                <input type="password" name="register" placeholder="Enter password" />
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="Enter email" />
+            </div>
+            <div>
+                <label>Phone: </label>
+                <input type="tel" name="phone" placeholder="Enter phone" />
+            </div>
+            <div>
+                <label for="sex">Sex: </label>
+                <span>
+                    <span>
+                        <input name="sex" type="radio" id="sex_male" />
+                        <label for="sex_male">Male</label>
+                    </span>
+                    <span>
+                        <input name="sex" type="radio" id="sex_female" />
+                        <label for="sex_female">Female</label>
+                    </span>
+                    <span>
+                        <input name="sex" type="radio" id="sex_other" />
+                        <label for="sex_other">Other</label>
+                    </span>
+                </span>
+            </div>
+            <div>
+                <label>Date of Birth: </label>
+                <input type="date" />
+            </div>
+            <div>
+                <label for="lng">Languages: </label>
+                <span>
+                    <span>
+                        <input name="lng" type="checkbox" id="lng_english" />
+                        <label for="lng_english">English</label>
+                    </span>
+                    <span>
+                        <input name="lng" type="checkbox" id="lng_hindi" />
+                        <label for="lng_hindi">Hindi</label>
+                    </span>
+                    <span>
+                        <input name="lng" type="checkbox" id="lng_telugu" />
+                        <label for="lng_telugu">Telugu</label>
+                    </span>
+                    <span>
+                        <input name="lng" type="checkbox" id="lng_tamil" />
+                        <label for="lng_tamil">Tamil</label>
+                    </span>
+                </span>
+            </div>
+            <div>
+                <label for="address">Address: </label>
+                <textarea name="address" placeholder="Enter address"></textarea>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </center>
+</body>
+
+</html>
